@@ -61,6 +61,6 @@ main = do
    , workspaces = myWorkspaces
    , manageHook = myManageHook <+> manageHook defaultConfig
 --   , handleEventHook = fullscreenEventHook -- handles fullscreen stuff breaks rofi
-  , startupHook = setWMName "LG3D" -- deals with java applets e.g. geogebra
+--  , startupHook = setWMName "LG3D" -- deals with java applets e.g. geogebra
    }`additionalKeys`myKeys
   
